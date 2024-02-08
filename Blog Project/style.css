@@ -1,0 +1,20 @@
+.brand-gradient {
+    font-size: 150%;
+    background: #121FCF;
+    background: -webkit-linear-gradient(to top, #121FCF 0%, #39CF1B 100%);
+    background: -moz-linear-gradient(to top, #121FCF 0%, #39CF1B 100%);
+    background: linear-gradient(to top, #121FCF 0%, #39CF1B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-holder , .main-page-header{
+    background-image: url("img/banner.jpeg");
+    background-position: bottom; 
+    background-size: cover;
+}
+
+.custom-nav{
+    
+    backdrop-filter: blur;
+}
